@@ -1,0 +1,38 @@
+.title {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.button {
+  text-align: center;
+  padding: 10px 32px;
+  font-weight: 700;
+  line-height: 1.5; /* 27/18 */
+  /*background-color: #ff9903;*/
+  border-radius: 24px;
+  color: #fff;
+  transition: background-color 0.3s ease 0s;
+}
+.button-dark {
+  border: 2px solid #e76f00;
+  color: #e76f00;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  box-shadow: rgba(253, 252, 180, 0.5) 0px 10px 30px -15px;
+}
+.active,
+.button-dark:hover {
+  background-color: #e76f00;
+  /*color: #fff;*/
+  color: #0c0c0e;
+}
+
+.button-vizit {
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*margin-top: 15px;*/
+}
+

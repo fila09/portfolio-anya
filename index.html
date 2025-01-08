@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Портфолио копирайтера</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="header__logo">
+          <!--<img src="img/icons/pen-white.svg" alt="Logo">-->
+        </a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a data-goto=".about" href="#" class="menu__link">Обо мне</a>
+            </li>
+            <li class="menu__item">
+              <a data-goto=".works" href="#" class="menu__link">Портфолио</a>
+            </li>
+            <li class="menu__item">
+              <a data-goto=".contacts" href="#" class="menu__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page">
+      <section class="page__main main">
+        <div class="main__container">
+          <h1 class="main__title">Анна Филюшина</h1>
+          <div class="main__text">
+            <p>Портфолио копирайтера и редактора</p>
+          </div>
+          <div class="main__arrow">
+            <!--<img src="img/icons/arrow.svg" alt="Arrow">-->
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="page__about about">
+        <div class="about__container">
+          <div class="about__image">
+            <!--<img src="img/about/photo.jpg" alt="Photo">-->
+          </div>
+
+          <div class="about__content">
+            <h2 class="about__title title">Анна Филюшина</h2>
+            <div class="about__text">
+              <p>Пишу и редактирую статьи, посты для соцсетей,
+                тексты для лендингов и сайтов, презентации.
+              </p>
+              <p>Прошла курс по редактуре — научилась понимать задачи 
+                и специфику написания постов и статей.
+              </p>
+              <p>
+                Перед началом работы провожу анализ целевой аудитории,
+                определяю боли читателей, чтобы решить их проблему.
+                Если тема незнакомая, провожу исследование: изучаю информацию,
+                нахожу специалиста и задаю вопросы, чтобы тексты
+                приносили пользу работодателю.
+              </p>
+              
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page__works works">
+        <div class="works__container">
+          <h2 class="works__title title">Мои работы</h2>
+          <div class="works__items items-works">
+            <nav class="items-works__navigation">
+              <button id="btn-all" class="items-works__type button button-dark">Все работы</button>
+              <button id="btn-articles" class="items-works__type button button-dark">Статьи</button>
+              <button id="btn-posts" class="items-works__type button button-dark">Посты для соцсетей</button>
+              <button id="btn-sites" class="items-works__type button button-dark">Тексты для лендингов</button>
+              <!--<button id="btn-eng" class="items-works__type button button-dark">Тексты на английском</button>
+              <button id="btn-video" class="items-works__type button button-dark">Видеоролики</button>-->
+            </nav>
+            <!--<h3 class="items-works__title"></h3>-->
+            <div class="items-works__body">
+
+              <div class="items-works__box" data-category="article">
+                <h3 class="items-works__title">Статьи</h3>
+                <div class="items-works__wrap">
+                  <article class="items-works__item item-article-1">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Зимнее вождение</h3>
+                      <div class="items-works__text">
+                        <p>
+                          В статье рассказываю, как подготовить машину к холодам, 
+                          выбрать зимние шины и адаптировать стиль вождения по снегу, 
+                          льду и плохой видимости.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1bd5PRQKBuRRXvJjINQcmxMA1bPY-HZz4D9LPAJGtOCY/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+
+                  <article class="items-works__item item-article-2">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Разворот в ограниченном пространстве</h3>
+                      <div class="items-works__text">
+                        <p>
+                          В статье для ДОСААФ подробно объяснила технику разворота 
+                          на автодроме и в городе.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1AAHyx2pBIxBxCT-WWvXTYuXoHeSQVhHh2YJ3VoIMwes/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+                  
+                  <article class="items-works__item item-article-3">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Типы автомобильных стекол</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Статья для компании AGC о типах автомобильных стекол, 
+                          их особенностях и функциях. Разбираю основные виды стекол.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1lKRU5ttwodBo69EWxWpGHMg9eiJAEDairxw2vvWKK2s/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+
+                  <article class="items-works__item item-article-4">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Техника для кухни</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Рассказываю, какая техника нужна на кухне и как выбрать подходящую.
+                          Статья для сайта Panasonic.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/15O7NUE53O8GTtSBg0CMQguXfA1122qenWZwvfB6Y6z4/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+
+                  <article class="items-works__item item-article-5">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Весовые категории в ММА</h3>
+                      <div class="items-works__text">
+                        <p>
+                          В статье объясняю о роли весовых категорий в ММА.
+                          Статья для сайта АСА-ММА.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1N76QWpbF-LAJapysbkajdxsgaEj7zIqppKS26c5SAgI/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+
+                  <article class="items-works__item item-article-6">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Авансовый платеж по договору лизинга</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Объяснила, что такое авансовый платеж в лизинге, 
+                          какие функции он выполняет и как рассчитывается его размер.
+                          Статья для компании «ЧелИндЛизинг».
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1BbbKUTT1ffX3MFRRH9MyjRIVf4O3KotJ_C1Q8XuRHEo/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="items-works__box" data-category="post">
+                <h3 class="items-works__title">Посты для соцсетей</h3>
+                <div class="items-works__wrap">
+                  <article class="items-works__item item-post-1">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Туры в Антарктиду</h3>
+                      <div class="items-works__text">
+                        <p>
+                          В посте рассказала, какие экспедиции бывают, как выбрать туры, 
+                          сколько стоят, на что обратить внимание.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1wLI_GCSFGJUL5-Oh9m0Qk7sdZfNTKXCtJxqTDcGuDtA/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+
+                  <article class="items-works__item item-post-2">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Пост для QA Studio</h3>
+                      <div class="items-works__text">
+                        <p>
+                          В посте рассказала, как стать тестировщиком и почему стоит выбрать эту профессию.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1fnYlFggUFcKjWPRVRnVRDTMscpJx_uzw6hLVv9gHe6s/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="items-works__box" data-category="site">
+                <h3 class="items-works__title">Тексты для лендингов</h3>
+                <div class="items-works__wrap">
+                  <article class="items-works__item item-site-1">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Лендинг для ДОСААФ</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Подготовила текст для лендинга про полеты на воздушном шаре. 
+                          В тексте описала основные этапы: от подготовки и инструктажа до полета 
+                          и вручения сертификата.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/144RvNEO-vTEW3bEnpLEftigBrR8LoJ1Mhk1S72D4TkA/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+                  
+                  <article class="items-works__item item-site-2">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Лендинг по приемке квартир</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Подготовила структуру лендинга для строительной компании 
+                          «Прораб Федор». Сайт по приемке квартир в Москве 
+                          и Московской области. На основе этой структуры был 
+                          сверстан сайт на Tilda.
+                        </p>
+                      </div>
+                      <div class="items-works__btn items-works__btn-row">
+                        <a href="https://docs.google.com/document/d/1fGP2AzGJam100HUQew2saKyUDIWJvWtXadQzfAc1ch0/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                        <a href="http://natalya-filyushina.tilda.ws/priemka" target="_blank" class="items-works__button button-vizit button">Посетить сайт</a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                </div>
+
+              <!--<div class="items-works__box" data-category="eng">
+                <h3 class="items-works__title">Тексты на английском</h3>
+                <div class="items-works__wrap">
+                  <article class="items-works__item item-eng-1">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">5 мини-сценариев для роликов в Инсту</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Погрузился в сферу бизнеса и выделил пять основных тем для изучения, чтобы развить свою нишу.
+                        </p>
+                      </div>
+                      <a href="https://docs.google.com/document/d/1Snxd4KMpS8NgGkPiTVm4DoBVtZP-siaEFiq9yLe9cks/edit?usp=sharing" target="_blank" class="items-works__button button">Читать</a>
+                    </div>
+                  </article>
+                </div>
+              </div>-->
+
+              <!--<div class="items-works__box" data-category="video">
+                <h3 class="items-works__title">Видеоролики</h3>
+                <div class="items-works__wrap">
+                  <article class="items-works__item item-video-1">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Ролик для YouTube</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Смонтировал ролик для строительной компании — обзор модульного дома. Написал текст и озвучил его.
+                        </p>
+                      </div>
+                      <a href="https://drive.google.com/file/d/1YW9cTgIy5zBWo6lbj9NfWpfjKphhBJFO/view?usp=drive_link" target="_blank" class="items-works__button button">Смотреть</a>
+                    </div>
+                  </article>
+
+                  <article class="items-works__item item-video-2">
+                    <div class="items-works__content">
+                      <h3 class="items-works__subtitle">Ролик для YouTube</h3>
+                      <div class="items-works__text">
+                        <p>
+                          Видео-обзор выставки домов Open Village 2024. Смонтировал материал, наложил субтитры, сделал озвучку и оформил обложку.
+                        </p>
+                      </div>
+                      <a href="https://drive.google.com/file/d/1qmV7OJPtdy4GlPUtk0Tk8gWDD9PEgXJ7/view?usp=drive_link" target="_blank" class="items-works__button button">Смотреть</a>
+                    </div>
+                  </article>
+
+                <article class="items-works__item item-eng-1">
+                  <div class="items-works__content">
+                    <h3 class="items-works__subtitle">Ролик 3</h3>
+                    <div class="items-works__text">
+                      <p>
+                        Текст
+                      </p>
+                    </div>
+                    <a href="https://docs.google.com/document/d/1Snxd4KMpS8NgGkPiTVm4DoBVtZP-siaEFiq9yLe9cks/edit?usp=sharing" target="_blank" class="items-works__button button">Смотреть</a>
+                  </div>
+                </article>
+              </div>
+
+              </div>-->
+
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page__contacts contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title title">Напишите мне:</h2>
+          <div class="contacts__text">
+            <p>Telegram: @cvmfg</p>
+          </div>
+          <div class="contacts__text">
+            <p>E-mail: faamail2017@gmail.com</p>
+          </div>
+          <div class="contacts__social">
+            <a href="https://t.me/cvmfg" target="_blank" class="contacts__link">
+              <img src="img/icons/tg.svg" alt="Telegram">
+            </a>
+            <!--<a href="https://api.whatsapp.com/send/?phone=79011992435&text&type=phone_number&app_absent=0" target="_blank" class="contacts__link">
+              <img src="img/icons/whats.svg" alt="WhatsApp">
+            </a>-->
+            <a href="https://vk.com/cvmfg" target="_blank" class="contacts__link">
+              <img src="img/icons/vk.svg" alt="VK">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
